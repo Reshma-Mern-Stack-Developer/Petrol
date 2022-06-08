@@ -85,13 +85,31 @@ li.nav-item.contact-btn {
   padding-top: 257px;
   padding-bottom: 340px;
   background-size: cover;
+  position: relative;
 }
-.carousel h1{
+.carousel .hg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.carousel h1 {
   font-weight: 700;
   font-size: 64px;
   line-height: 96px;
   color: #FFFFFF;
   max-width: 842px;
+  position: relative;
+  z-index: 2;
+}
+.carousel .btn{
+  position: relative;
+  z-index: 2;
+
 }
 /* Carousel Css End */
 
