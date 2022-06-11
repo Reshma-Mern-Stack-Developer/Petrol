@@ -17,11 +17,26 @@ ul li{
 a{
   text-decoration: none;
 }
+.global-btn {
+  padding: 13px 40px;
+  background: #F40404;
+  color: #fff;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+text-transform:uppercase ;
+}
 /* General Style End */
 /* Header Css Start */
 header{
   background: #000;
   padding: 16px 0;
+  border-bottom: 5px solid #FFB800;
 }
 header a{
   font-weight: 400;
@@ -80,36 +95,60 @@ li.nav-item.contact-btn {
 }
 /* Nav Css End */
 /* Carousel Css Start */
-.carousel{
+.carousel .bgimg{
   background: url("../img/banner.png") no-repeat center;
-  padding-top: 257px;
-  padding-bottom: 340px;
   background-size: cover;
-  position: relative;
 }
-.carousel .hg{
-  position: absolute;
+.carousel .bgimg .overlay{
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 0;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-.carousel h1 {
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 96px;
-  color: #FFFFFF;
-  max-width: 842px;
-  position: relative;
-  z-index: 2;
-}
-.carousel .btn{
-  position: relative;
-  z-index: 2;
+padding: 257px 0;
 
 }
+.carousel button{
+  opacity: 1;
+}
+.carousel i{
+  font-size: 60px;
+  color: #fff;
+}
+.carousel .bgimg .overlay h2{
+  font-weight: 700;
+font-size: 64px;
+line-height: 96px;
+color: #fff;
+max-width: 842px;
+margin-bottom: 31px;
+}
+
 /* Carousel Css End */
+/* Country Css Start */
+.country{
+  padding: 78px 0;
+}
+.country .row{
+  align-items: center;
+}
+.heading h2 {
+  font-size: 48px;
+}
+.country p {
+  max-width: 651px;
+  margin: 0 auto;
+}
+/* Country Css End */
+.four-img{
+  margin-bottom: 28px;
+}
+.four-img .imgs {
+  display: flex;
+  justify-content: space-between;
+}
+.four-img .imgs .img{
+  width: 24%;
+}
+.four-img .imgs .img img{
+  width: 100%;
+}
 
